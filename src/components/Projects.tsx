@@ -4,33 +4,33 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Квартира в скандинавском стиле",
+    category: "Капитальный ремонт",
+    location: "68 м² · 3-комнатная",
     year: "2024",
     image: "/images/hously-1.png",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
+    title: "Современная кухня-гостиная",
+    category: "Частичный ремонт",
+    location: "42 м² · open space",
+    year: "2024",
     image: "/images/hously-2.png",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Ванная с мозаикой",
+    category: "Санузел под ключ",
+    location: "8 м² · дизайнерский",
     year: "2023",
     image: "/images/hously-3.png",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
+    title: "Офис IT-компании",
+    category: "Коммерческий ремонт",
+    location: "120 м² · open space",
     year: "2024",
     image: "/images/hously-4.png",
   },
@@ -68,8 +68,8 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Фото работ</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши объекты</h2>
           </div>
           <a
             href="#"
